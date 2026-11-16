@@ -1,17 +1,17 @@
 ---
 layout: page
 title: About
-hide_title: true
 permalink: /
 news_limit: 6
 ---
 
 {% if site.job_market != "" %}<div class="banner">{{ site.job_market | markdownify | remove: '<p>' | remove: '</p>' }}</div>{% endif %}
 
-# Hi, I'm Samantha.
-{: .page__title}
+I am a fifth-year PhD candidate at the University of California, Irvine, advised by [Dr. Jane Baldwin](https://www.janebaldw.in/) in the [Climate and Extreme Events Risk Group](https://www.janebaldw.in/). My research focuses on compound hazards and their impacts on society.
 
-<p class="lead">I'm a PhD candidate at the University of California, Irvine, where I'm advised by <a href="https://www.janebaldw.in/">Dr. Jane Baldwin</a> in the <a href="https://www.janebaldw.in/">Climate and Extreme Events Risk Group</a>. I study compound hazards and their societal impacts.</p>
+My dissertation examines **TC–heat events**, in which a tropical cyclone is followed by extreme heat. Tropical cyclones often cause widespread power outages, and when extreme heat follows in the same region, communities can be left without cooling at the very moment they need it most, posing serious risks to human health and well-being. I use high-resolution global climate models (GCMs) to better understand these events.
+
+Before coming to UCI, I earned a B.S. in Atmospheric Sciences from Cornell University in 2021, with minors in Climate Change and in Environment & Sustainability. Outside of research, I enjoy running, hiking, camping, knitting, and crocheting.
 
 <ul class="interests" aria-label="Research interests">
   <li>Compound hazards</li>
@@ -20,18 +20,6 @@ news_limit: 6
   <li>Climate modeling</li>
   <li>Societal impacts</li>
 </ul>
-
-## Research
-
-My dissertation focuses on **TC–heat events**: tropical cyclones followed by extreme heat. Tropical cyclones often cause widespread power outages. If extreme heat then hits the same region, people may be left without air conditioning or other cooling right when they need it most, which can be very dangerous for human health and wellbeing.
-
-I use high-resolution global climate models (GCMs) to study these events.
-
-## Background
-
-I graduated from Cornell University in 2021 with a B.S. in Atmospheric Sciences and minors in Climate Change and in Environment & Sustainability.
-
-Outside of research, you'll usually find me running, hiking, or camping, or working on my latest knitting or crochet project.
 
 ## News
 
