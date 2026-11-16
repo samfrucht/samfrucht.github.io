@@ -6,8 +6,8 @@
 
 title: Samantha Frucht
 description: >-
-  PhD candidate at the University of California, Irvine. [PLACEHOLDER — one
-  sentence about your research; shown in search results and link previews.]
+  PhD candidate at UC Irvine studying compound natural hazards and their
+  societal impacts.
 url: "https://samfrucht.github.io"   # change if you add a custom domain later
 baseurl: ""
 lang: en
@@ -17,10 +17,10 @@ author:
   name: Samantha Frucht
   pronouns: ""                       # e.g. "she/her" — leave "" to hide
   role: PhD Candidate
-  department: "[PLACEHOLDER] Department of ..."
+  department: "Department of Earth System Science"
   institution: University of California, Irvine
   location: Irvine, CA
-  avatar: /images/profile.svg        # replace with e.g. /images/profile.jpg
+  avatar: /images/profile.jpg        # to change: upload a new photo to images/ and update this
   # How your name appears in author lists — it gets bolded on the
   # Publications and Presentations pages. Add every variant you use.
   pub_names:

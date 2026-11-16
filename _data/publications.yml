@@ -1,43 +1,38 @@
 # =============================================================================
 #  PUBLICATIONS
-#  Each "- title:" block is one paper. Copy a block to add a new one.
+#  Each block starting with "- title:" is one paper. Copy a block to add one.
 #  Fields you don't have can be left out entirely (e.g. no "code:" line).
 #
-#  status:  published | in-review | in-prep   (controls which section it's in)
+#  status:  published | accepted | in-review | in-prep
+#           published & accepted both appear under "Peer-reviewed publications";
+#           accepted papers get an "In press" tag.
 #  doi:     just the DOI, e.g. 10.1029/2024GL000000  -> becomes a DOI button
-#  pdf:     a link, or a file you upload to assets/files/ (e.g. /assets/files/frucht2025.pdf)
+#  pdf:     a link, or a file you upload to assets/files/ (e.g. /assets/files/frucht2026jgr.pdf)
 #  code / data / link: any URL -> become buttons
-#  bibtex:  paste a BibTeX entry between the "|" and the next field -> "Cite" button
+#  bibtex:  paste a BibTeX entry after "bibtex: |" (indented) -> "Cite" button
 #  Your name is bolded automatically (see pub_names in _config.yml).
 # =============================================================================
 
-- title: "[PLACEHOLDER] Title of your first peer-reviewed paper"
-  authors: "Frucht, S., Coauthor, A., & Advisor, B."
-  journal: "Journal Name"
-  details: "12(3), 1–20"          # volume(issue), pages — optional
-  year: 2025
-  status: published
-  doi: "10.0000/placeholder"
-  pdf: ""
-  code: ""
-  data: ""
-  bibtex: |
-    @article{frucht2025example,
-      title   = {Title of your first peer-reviewed paper},
-      author  = {Frucht, Samantha and Coauthor, A. and Advisor, B.},
-      journal = {Journal Name},
-      year    = {2025}
-    }
-
-- title: "[PLACEHOLDER] Title of your second peer-reviewed paper"
-  authors: "Coauthor, A., Frucht, S., & Advisor, B."
-  journal: "Journal Name"
-  year: 2024
-  status: published
-  doi: "10.0000/placeholder2"
-
-- title: "[PLACEHOLDER] A dissertation chapter currently in review"
-  authors: "Frucht, S., & Advisor, B."
-  journal: "Submitted to Journal Name"
+- title: "[PLACEHOLDER] Title of your JGR: Atmospheres paper"
+  authors: "Frucht, S., [Coauthors], & Baldwin, J. E."
+  journal: "Journal of Geophysical Research: Atmospheres"
   year: 2026
-  status: in-review
+  status: accepted
+  doi: "10.1029/2026JD047940"
+  pdf: ""                         # e.g. /assets/files/frucht2026jgr.pdf
+
+- title: "[PLACEHOLDER] Title of your Earth's Future paper"
+  authors: "[First Author], Frucht, S., [Coauthors]"
+  journal: "Earth's Future"
+  details: ""                     # volume(issue), article number
+  year: 2025                      # [CHECK YEAR]
+  status: published
+  doi: "10.1029/2025EF007720"
+  pdf: ""
+
+# Example of a paper in preparation (remove the "# " at the start of each line to use):
+# - title: "Title of a dissertation chapter"
+#   authors: "Frucht, S., & Baldwin, J. E."
+#   journal: "In preparation"
+#   year: 2026
+#   status: in-prep

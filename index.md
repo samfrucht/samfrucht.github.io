@@ -11,17 +11,17 @@ news_limit: 6
 # Hi, I'm Samantha.
 {: .page__title}
 
-<p class="lead">[PLACEHOLDER] I'm a PhD candidate in the <a href="#">Department of ...</a> at the University of California, Irvine, advised by <a href="#">Prof. Advisor Name</a>. My research focuses on ...</p>
+<p class="lead">I'm a PhD candidate in the Department of Earth System Science at the University of California, Irvine, where I'm advised by <a href="https://www.janebaldw.in/">Dr. Jane Baldwin</a> in the <a href="https://www.janebaldw.in/">Climate and Extreme Events Risk Group</a>.</p>
 
-[PLACEHOLDER] A second paragraph: the big questions that drive your work, the methods you use (e.g., observations, climate models, statistics), and why it matters. Two or three sentences is plenty.
+My research focuses on **compound natural hazards**, extreme events that occur together or in quick succession, and on how they affect people and communities. [PLACEHOLDER: one or two sentences on the specific questions you ask and the tools you use, e.g. "I use observations and climate model simulations to understand…"]
 
-[PLACEHOLDER] A third, optional paragraph: before UCI, I received my B.S. in ... from .... Outside of research, I enjoy ....
+Outside of research, you'll usually find me running, hiking, or camping, or working on my latest knitting or crochet project.
 
 <ul class="interests" aria-label="Research interests">
-  <li>[Interest 1]</li>
-  <li>[Interest 2]</li>
-  <li>[Interest 3]</li>
-  <li>[Interest 4]</li>
+  <li>Compound hazards</li>
+  <li>Climate extremes</li>
+  <li>Societal impacts</li>
+  <li>Climate risk</li>
 </ul>
 
 ## News

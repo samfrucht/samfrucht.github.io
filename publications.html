@@ -6,21 +6,22 @@ title: Publications
   Content comes from _data/publications.yml — edit that file, not this one.
 {%- endcomment -%}
 {% if site.links.google_scholar != "" %}<p class="page__subtitle" style="margin-top:-1.25rem">For a complete list, see my <a href="https://scholar.google.com/citations?user={{ site.links.google_scholar }}">Google Scholar profile</a>.</p>{% endif %}
-{% assign pubs = site.data.publications %}
+{% assign pubs = site.data.publications | sort: "year" | reverse %}
 {% assign sections = "published|Peer-reviewed publications;in-review|In review;in-prep|In preparation" | split: ";" %}
 
 {% for s in sections %}
   {% assign key = s | split: "|" | first %}
   {% assign label = s | split: "|" | last %}
-  {% assign group = pubs | where: "status", key | sort: "year" | reverse %}
-  {% if group.size > 0 %}
-<h2>{{ label }}</h2>
-<ol class="entries">
-  {% for p in group %}{% assign id = "bib-" | append: key | append: forloop.index %}
+  {% capture entries %}
+  {% for p in pubs %}
+    {% assign show = false %}
+    {% if p.status == key %}{% assign show = true %}{% endif %}
+    {% if key == "published" and p.status == "accepted" %}{% assign show = true %}{% endif %}
+    {% if show %}{% assign id = "bib-" | append: key | append: forloop.index %}
   <li class="entry">
-    <p class="entry__title">{{ p.title }}</p>
+    <p class="entry__title">{{ p.title }}{% if p.status == "accepted" %} <span class="tag tag--talk">In press</span>{% endif %}</p>
     <p class="entry__authors">{% include authors.html authors=p.authors %}{% if p.year %} ({{ p.year }}){% endif %}</p>
-    <p class="entry__venue"><em>{{ p.journal }}</em>{% if p.details %}, {{ p.details }}{% endif %}</p>
+    <p class="entry__venue"><em>{{ p.journal }}</em>{% if p.details and p.details != "" %}, {{ p.details }}{% endif %}</p>
     {% capture btns %}
       {% if p.doi and p.doi != "" %}<a class="btn" href="https://doi.org/{{ p.doi }}">{% include icon.html name="link" %} DOI</a>{% endif %}
       {% if p.pdf and p.pdf != "" %}<a class="btn" href="{{ p.pdf | relative_url }}">{% include icon.html name="file-pdf" %} PDF</a>{% endif %}
@@ -38,8 +39,13 @@ title: Publications
     </div>
     {% endif %}
   </li>
+    {% endif %}
   {% endfor %}
-</ol>
+  {% endcapture %}
+  {% assign entries_clean = entries | strip %}
+  {% if entries_clean != "" %}
+<h2>{{ label }}</h2>
+<ol class="entries">{{ entries }}</ol>
   {% endif %}
 {% endfor %}
 

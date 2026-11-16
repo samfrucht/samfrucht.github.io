@@ -1,9 +1,7 @@
 # News items on the home page, newest first. Copy a block to add one.
 # Markdown works in "text" (e.g. **bold**, [link](https://...)).
 # Only the most recent 6 are shown (change "news_limit" in index.md).
-- date: 2026-11-01
-  text: "[PLACEHOLDER] Website launched!"
+- date: 2026-11-01   # [CHECK DATE]
+  text: "My first first-author paper was accepted in *JGR: Atmospheres*! [See publications](/publications/)."
 - date: 2026-09-15
   text: "[PLACEHOLDER] Presented my work at *Conference Name* in City, State."
-- date: 2026-06-01
-  text: "[PLACEHOLDER] Paper accepted in *Journal Name* — [read it here](#)."
