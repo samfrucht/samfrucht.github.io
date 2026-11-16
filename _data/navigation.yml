@@ -1,0 +1,12 @@
+# Top menu. Reorder, rename, or delete lines to change the menu.
+# To hide a page from the menu, delete (or comment out with #) its two lines.
+- title: About
+  url: /
+- title: Research
+  url: /research/
+- title: Publications
+  url: /publications/
+- title: Presentations
+  url: /presentations/
+- title: CV
+  url: /cv/

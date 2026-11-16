@@ -1,0 +1,7 @@
+{%- comment -%} Bolds your name (from pub_names in _config.yml) in an author list. {%- endcomment -%}
+{%- assign out = include.authors -%}
+{%- for n in site.author.pub_names -%}
+  {%- capture strong -%}<strong class="me">{{ n }}</strong>{%- endcapture -%}
+  {%- assign out = out | replace: n, strong -%}
+{%- endfor -%}
+{{- out -}}

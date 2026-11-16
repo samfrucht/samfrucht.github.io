@@ -1,0 +1,46 @@
+---
+layout: page
+title: Publications
+---
+{%- comment -%}
+  Content comes from _data/publications.yml — edit that file, not this one.
+{%- endcomment -%}
+{% if site.links.google_scholar != "" %}<p class="page__subtitle" style="margin-top:-1.25rem">For a complete list, see my <a href="https://scholar.google.com/citations?user={{ site.links.google_scholar }}">Google Scholar profile</a>.</p>{% endif %}
+{% assign pubs = site.data.publications %}
+{% assign sections = "published|Peer-reviewed publications;in-review|In review;in-prep|In preparation" | split: ";" %}
+
+{% for s in sections %}
+  {% assign key = s | split: "|" | first %}
+  {% assign label = s | split: "|" | last %}
+  {% assign group = pubs | where: "status", key | sort: "year" | reverse %}
+  {% if group.size > 0 %}
+<h2>{{ label }}</h2>
+<ol class="entries">
+  {% for p in group %}{% assign id = "bib-" | append: key | append: forloop.index %}
+  <li class="entry">
+    <p class="entry__title">{{ p.title }}</p>
+    <p class="entry__authors">{% include authors.html authors=p.authors %}{% if p.year %} ({{ p.year }}){% endif %}</p>
+    <p class="entry__venue"><em>{{ p.journal }}</em>{% if p.details %}, {{ p.details }}{% endif %}</p>
+    {% capture btns %}
+      {% if p.doi and p.doi != "" %}<a class="btn" href="https://doi.org/{{ p.doi }}">{% include icon.html name="link" %} DOI</a>{% endif %}
+      {% if p.pdf and p.pdf != "" %}<a class="btn" href="{{ p.pdf | relative_url }}">{% include icon.html name="file-pdf" %} PDF</a>{% endif %}
+      {% if p.code and p.code != "" %}<a class="btn" href="{{ p.code }}">{% include icon.html name="code" %} Code</a>{% endif %}
+      {% if p.data and p.data != "" %}<a class="btn" href="{{ p.data }}">{% include icon.html name="database" %} Data</a>{% endif %}
+      {% if p.link and p.link != "" %}<a class="btn" href="{{ p.link }}">{% include icon.html name="external" %} Link</a>{% endif %}
+      {% if p.bibtex and p.bibtex != "" %}<button class="btn" type="button" data-bibtex-toggle="{{ id }}" aria-expanded="false">{% include icon.html name="quote" %} Cite</button>{% endif %}
+    {% endcapture %}
+    {% assign btns_clean = btns | strip %}
+    {% if btns_clean != "" %}<div class="buttons">{{ btns }}</div>{% endif %}
+    {% if p.bibtex and p.bibtex != "" %}
+    <div class="bibtex" id="{{ id }}">
+      <pre id="{{ id }}-text">{{ p.bibtex | strip | escape }}</pre>
+      <div class="buttons"><button class="btn" type="button" data-copy="{{ id }}-text">Copy BibTeX</button></div>
+    </div>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ol>
+  {% endif %}
+{% endfor %}
+
+<p style="margin-top:2rem">Conference talks, posters, and abstracts are listed on the <a href="{{ '/presentations/' | relative_url }}">Presentations</a> page.</p>

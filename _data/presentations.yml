@@ -1,0 +1,31 @@
+# =============================================================================
+#  PRESENTATIONS & CONFERENCE ABSTRACTS (non-peer-reviewed)
+#  Newest first. Copy a block to add one.
+#
+#  type:    talk | poster | invited    (shown as a small tag)
+#  slides / poster / abstract / recording: optional links -> buttons
+#           (upload files to assets/files/ and link as /assets/files/name.pdf)
+# =============================================================================
+
+- title: "[PLACEHOLDER] Title of your talk"
+  authors: "Frucht, S., & Advisor, B."
+  event: "AGU Fall Meeting"
+  location: "San Francisco, CA"
+  date: 2025-12-15
+  type: talk
+  abstract: ""
+  slides: ""
+
+- title: "[PLACEHOLDER] Title of your poster"
+  authors: "Frucht, S., Coauthor, A., & Advisor, B."
+  event: "AMS Annual Meeting"
+  location: "New Orleans, LA"
+  date: 2025-01-14
+  type: poster
+  poster: ""
+
+- title: "[PLACEHOLDER] Departmental seminar"
+  event: "Department Seminar Series, UC Irvine"
+  location: "Irvine, CA"
+  date: 2024-05-02
+  type: invited
