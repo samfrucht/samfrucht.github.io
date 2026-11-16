@@ -16,13 +16,12 @@ The site rebuilds itself in about a minute.
 | I want to change… | Edit this file |
 |---|---|
 | Name, title, department, sidebar links, email | `_config.yml` |
-| Home page (bio, research interests) | `index.md` |
+| Home page (bio, research, background) | `index.md` |
 | News items on the home page | `_data/news.yml` |
 | Publications | `_data/publications.yml` |
 | Talks, posters, conference abstracts | `_data/presentations.yml` |
 | CV page summary (education, awards, skills) | `cv.md` |
 | The CV PDF | upload over `assets/files/cv.pdf` |
-| Research projects | `research.md` (images go in `images/`) |
 | Menu items / order | `_data/navigation.yml` |
 | Colors and fonts | top of `assets/css/main.css` |
 

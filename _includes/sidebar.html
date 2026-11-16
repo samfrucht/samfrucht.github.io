@@ -7,7 +7,7 @@
     <p class="sidebar__role">{{ a.role }}</p>
   </div>
   <ul class="sidebar__links">
-    {% if a.department != "" %}<li>{% include icon.html name="building" %}<span>{{ a.department }}<br>{{ a.institution }}</span></li>{% endif %}
+    {% if a.institution != "" %}<li>{% include icon.html name="building" %}<span>{% if a.department != "" %}{{ a.department }}<br>{% endif %}{{ a.institution }}</span></li>{% endif %}
     {% if a.location != "" %}<li>{% include icon.html name="location" %}<span>{{ a.location }}</span></li>{% endif %}
     {% if l.email_user != "" %}
       {%- comment -%} Email is stored reversed and assembled by assets/js/main.js {%- endcomment -%}
@@ -18,6 +18,5 @@
     {% if l.linkedin != "" %}<li><a href="https://www.linkedin.com/in/{{ l.linkedin }}/" rel="me">{% include icon.html name="linkedin" %}<span>LinkedIn</span></a></li>{% endif %}
     {% if l.orcid != "" %}<li><a href="https://orcid.org/{{ l.orcid }}" rel="me">{% include icon.html name="orcid" %}<span>ORCID</span></a></li>{% endif %}
     {% if l.google_scholar != "" %}<li><a href="https://scholar.google.com/citations?user={{ l.google_scholar }}">{% include icon.html name="google-scholar" %}<span>Google Scholar</span></a></li>{% endif %}
-    {% if site.cv_pdf != "" %}<li><a href="{{ site.cv_pdf | relative_url }}">{% include icon.html name="file-pdf" %}<span>CV (PDF)</span></a></li>{% endif %}
   </ul>
 </aside>

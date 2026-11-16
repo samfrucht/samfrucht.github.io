@@ -15,11 +15,11 @@ lang: en
 # --- About you (shown in the sidebar) ----------------------------------------
 author:
   name: Samantha Frucht
-  pronouns: ""                       # e.g. "she/her" — leave "" to hide
+  pronouns: she/her                  # leave "" to hide
   role: PhD Candidate
-  department: "Department of Earth System Science"
+  department: ""                     # leave "" to hide
   institution: University of California, Irvine
-  location: Irvine, CA
+  location: ""                       # e.g. "Irvine, CA" — leave "" to hide
   avatar: /images/profile.jpg        # to change: upload a new photo to images/ and update this
   # How your name appears in author lists — it gets bolded on the
   # Publications and Presentations pages. Add every variant you use.

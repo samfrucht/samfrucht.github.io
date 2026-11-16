@@ -11,18 +11,27 @@ news_limit: 6
 # Hi, I'm Samantha.
 {: .page__title}
 
-<p class="lead">I'm a PhD candidate in the Department of Earth System Science at the University of California, Irvine, where I'm advised by <a href="https://www.janebaldw.in/">Dr. Jane Baldwin</a> in the <a href="https://www.janebaldw.in/">Climate and Extreme Events Risk Group</a>.</p>
-
-My research focuses on **compound natural hazards**, extreme events that occur together or in quick succession, and on how they affect people and communities. [PLACEHOLDER: one or two sentences on the specific questions you ask and the tools you use, e.g. "I use observations and climate model simulations to understand…"]
-
-Outside of research, you'll usually find me running, hiking, or camping, or working on my latest knitting or crochet project.
+<p class="lead">I'm a PhD candidate at the University of California, Irvine, where I'm advised by <a href="https://www.janebaldw.in/">Dr. Jane Baldwin</a> in the <a href="https://www.janebaldw.in/">Climate and Extreme Events Risk Group</a>. I study compound hazards and their societal impacts.</p>
 
 <ul class="interests" aria-label="Research interests">
   <li>Compound hazards</li>
-  <li>Climate extremes</li>
+  <li>Tropical cyclones</li>
+  <li>Extreme heat</li>
+  <li>Climate modeling</li>
   <li>Societal impacts</li>
-  <li>Climate risk</li>
 </ul>
+
+## Research
+
+My dissertation focuses on **TC–heat events**: tropical cyclones followed by extreme heat. Tropical cyclones often cause widespread power outages. If extreme heat then hits the same region, people may be left without air conditioning or other cooling right when they need it most, which can be very dangerous for human health and wellbeing.
+
+I use high-resolution global climate models (GCMs) to study these events.
+
+## Background
+
+I graduated from Cornell University in 2021 with a B.S. in Atmospheric Sciences and minors in Climate Change and in Environment & Sustainability.
+
+Outside of research, you'll usually find me running, hiking, or camping, or working on my latest knitting or crochet project.
 
 ## News
 
