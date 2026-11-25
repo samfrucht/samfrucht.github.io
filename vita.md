@@ -78,17 +78,15 @@ permalink: /vita/
 <li><span class="when">Fall 2020</span><span><strong>Teaching Assistant, Introduction to Oceanography</strong><span class="sub">Cornell University</span></span></li>
 </ul>
 
-## Service & Outreach
+## Service
 
 <ul class="cv-list">
 <li><span class="when">2025 – Present</span><span><strong>Reviewer</strong><span class="sub"><em>Weather, Climate, and Society</em> (AMS)</span></span></li>
 <li><span class="when">2024 – Present</span><span><strong>Graduate Representative</strong><span class="sub">Department of Earth System Science, UC Irvine</span></span></li>
 <li><span class="when">2023 – 2026</span><span><strong>Graduate Mentorship Program Lead &amp; Mentor</strong><span class="sub">UC Irvine</span></span></li>
-<li><span class="when">2024</span><span><strong>NSF GRFP Mentor</strong><span class="sub">UC Irvine</span></span></li>
-<li><span class="when">2022 – 2024</span><span><strong>Climate, Literacy, Empowerment, and Inquiry (CLEAN)</strong><span class="sub">Climate lessons for local middle school students, UC Irvine</span></span></li>
-<li><span class="when">2022 – 2023</span><span><strong>EmpowHER Mentor</strong><span class="sub">Mentoring high school women in STEM, UC Irvine</span></span></li>
-<li><span class="when">2018 – 2020</span><span><strong>President, Cornell Chapter of the AMS</strong><span class="sub">Cornell University</span></span></li>
 </ul>
+
+<p class="cv-note">Additional mentoring and outreach activities are listed in my <a href="{{ site.cv_pdf | relative_url }}">full CV</a>.</p>
 
 ## Skills
 
