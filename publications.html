@@ -5,21 +5,12 @@ title: Publications
 {%- comment -%}
   Content comes from _data/publications.yml — edit that file, not this one.
 {%- endcomment -%}
-{% if site.links.google_scholar != "" %}<p class="page__subtitle" style="margin-top:-1.25rem">For a complete list, see my <a href="https://scholar.google.com/citations?user={{ site.links.google_scholar }}">Google Scholar profile</a>.</p>{% endif %}
+{% if site.links.google_scholar != "" %}<p class="page__subtitle" style="margin:-1.25rem 0 1.5rem">For a complete list, see my <a href="https://scholar.google.com/citations?user={{ site.links.google_scholar }}">Google Scholar profile</a>.</p>{% endif %}
 {% assign pubs = site.data.publications %}
-{% assign sections = "in-prep|In preparation;in-review|In review;published|Peer-reviewed publications" | split: ";" %}
-
-{% for s in sections %}
-  {% assign key = s | split: "|" | first %}
-  {% assign label = s | split: "|" | last %}
-  {% capture entries %}
-  {% for p in pubs %}
-    {% assign show = false %}
-    {% if p.status == key %}{% assign show = true %}{% endif %}
-    {% if key == "published" and p.status == "accepted" %}{% assign show = true %}{% endif %}
-    {% if show %}{% assign id = "bib-" | append: key | append: forloop.index %}
+<ol class="entries">
+{% for p in pubs %}{% assign id = "bib-" | append: forloop.index %}
   <li class="entry">
-    <p class="entry__title">{{ p.title }}{% if p.status == "accepted" %} <span class="tag tag--talk">In press</span>{% endif %}</p>
+    <p class="entry__title">{{ p.title }}{% case p.status %}{% when "accepted" %} <span class="tag tag--talk">In press</span>{% when "in-review" %} <span class="tag tag--talk">Under review</span>{% when "in-prep" %} <span class="tag">In preparation</span>{% endcase %}</p>
     <p class="entry__authors">{% include authors.html authors=p.authors %}{% if p.year %} ({{ p.year }}){% endif %}</p>
     <p class="entry__venue"><em>{{ p.journal }}</em>{% if p.details and p.details != "" %}, {{ p.details }}{% endif %}</p>
     {% capture btns %}
@@ -40,14 +31,7 @@ title: Publications
     </div>
     {% endif %}
   </li>
-    {% endif %}
-  {% endfor %}
-  {% endcapture %}
-  {% assign entries_clean = entries | strip %}
-  {% if entries_clean != "" %}
-<h2>{{ label }}</h2>
-<ol class="entries">{{ entries }}</ol>
-  {% endif %}
 {% endfor %}
+</ol>
 
 <p style="margin-top:2rem">Conference talks, posters, and abstracts are listed on the <a href="{{ '/presentations/' | relative_url }}">Presentations</a> page.</p>

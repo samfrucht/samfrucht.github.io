@@ -5,9 +5,8 @@
 #  Fields you don't have can be left out entirely (e.g. no "code:" line).
 #
 #  status:  published | accepted | in-review | in-prep
-#           Sections appear in this order: In preparation, In review,
-#           Peer-reviewed. "accepted" papers go under Peer-reviewed with an
-#           "In press" tag.
+#           All papers appear in one list. accepted -> "In press" tag,
+#           in-review -> "Under review" tag, in-prep -> "In preparation" tag.
 #  doi:      just the DOI, e.g. 10.1029/2024GL000000  -> "DOI" button
 #  preprint: link to a preprint (e.g. ESS Open Archive) -> "Preprint" button
 #  pdf:      a link, or a file you upload to assets/files/ (e.g. /assets/files/frucht2026jgr.pdf)
