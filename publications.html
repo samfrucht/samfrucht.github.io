@@ -6,8 +6,8 @@ title: Publications
   Content comes from _data/publications.yml — edit that file, not this one.
 {%- endcomment -%}
 {% if site.links.google_scholar != "" %}<p class="page__subtitle" style="margin-top:-1.25rem">For a complete list, see my <a href="https://scholar.google.com/citations?user={{ site.links.google_scholar }}">Google Scholar profile</a>.</p>{% endif %}
-{% assign pubs = site.data.publications | sort: "year" | reverse %}
-{% assign sections = "published|Peer-reviewed publications;in-review|In review;in-prep|In preparation" | split: ";" %}
+{% assign pubs = site.data.publications %}
+{% assign sections = "in-prep|In preparation;in-review|In review;published|Peer-reviewed publications" | split: ";" %}
 
 {% for s in sections %}
   {% assign key = s | split: "|" | first %}

@@ -1,42 +1,46 @@
 # =============================================================================
 #  PUBLICATIONS
-#  Each block starting with "- title:" is one paper. Copy a block to add one.
+#  Each block that starts with a dash is one paper. Copy a block to add one.
+#  Papers are shown in the order listed here, so put the newest at the top.
 #  Fields you don't have can be left out entirely (e.g. no "code:" line).
 #
 #  status:  published | accepted | in-review | in-prep
-#           published & accepted both appear under "Peer-reviewed publications";
-#           accepted papers get an "In press" tag.
-#  doi:     just the DOI, e.g. 10.1029/2024GL000000  -> becomes a DOI button
-#  pdf:     a link, or a file you upload to assets/files/ (e.g. /assets/files/frucht2026jgr.pdf)
+#           Sections appear in this order: In preparation, In review,
+#           Peer-reviewed. "accepted" papers go under Peer-reviewed with an
+#           "In press" tag.
+#  doi:      just the DOI, e.g. 10.1029/2024GL000000  -> "DOI" button
 #  preprint: link to a preprint (e.g. ESS Open Archive) -> "Preprint" button
-#  code / data / link: any URL -> become buttons
-#  bibtex:  paste a BibTeX entry after "bibtex: |" (indented) -> "Cite" button
+#  pdf:      a link, or a file you upload to assets/files/ (e.g. /assets/files/frucht2026jgr.pdf)
+#  code / data / link: any URL -> buttons
+#  bibtex:   paste a BibTeX entry after "bibtex: |" (indented) -> "Cite" button
 #  Your name is bolded automatically (see pub_names in _config.yml).
 # =============================================================================
 
-- title: "[PLACEHOLDER] Title of your JGR: Atmospheres paper"
-  authors: "Frucht, S., [Coauthors], & Baldwin, J. E."
-  journal: "Journal of Geophysical Research: Atmospheres"
-  year: 2026
-  status: accepted
-  doi: "10.1029/2026JD047940"
-  pdf: ""                         # e.g. /assets/files/frucht2026jgr.pdf
-
-- title: "[PLACEHOLDER] Title of your Earth's Future paper"
-  authors: "[First Author], Frucht, S., [Coauthors]"
-  journal: "Earth's Future"
-  details: ""                     # volume(issue), article number
-  year: 2025                      # [CHECK YEAR]
-  status: published
-  doi: "10.1029/2025EF007720"
-  pdf: ""
-
-- title: "[PLACEHOLDER] Title of your paper in review"
-  authors: "[Authors — Frucht, S. is bolded automatically]"
-  journal: "[Journal it was submitted to]"
+- title: "Tropical cyclone–extreme heat compound events exhibit amplified landfall cooling and rapid heat stress resurgence"
+  authors: "Zhao, Y., Frucht, S., Raymond, C., et al."
+  journal: "ESS Open Archive (preprint)"
+  details: "13 October 2026"
   year: 2026
   status: in-review
   preprint: "https://doi.org/10.22541/essoar.15004387/v3"
+
+- title: "Quantifying historical tropical cyclone-heat compound events using global climate models"
+  authors: "Frucht, S., Camargo, S. J., Murakami, H., Lee, C.-Y., Matthews, T., Vecchi, G. A., et al."
+  journal: "Journal of Geophysical Research: Atmospheres"
+  details: "131, e2026JD047940"
+  year: 2026
+  status: published
+  doi: "10.1029/2026JD047940"
+  pdf: ""                         # e.g. /assets/files/frucht2026jgr.pdf
+
+- title: "Historical and projected tropical cyclone characteristics in SPEAR large ensemble simulations"
+  authors: "Chu, W., García-Franco, J. L., Camargo, S. J., Lee, C.-Y., Tippett, M. K., Murakami, H., et al."
+  journal: "Earth's Future"
+  details: "14, e2025EF007720"
+  year: 2026
+  status: published
+  doi: "10.1029/2025EF007720"
+  pdf: ""
 
 # Example of a paper in preparation (remove the "# " at the start of each line to use):
 # - title: "Title of a dissertation chapter"
