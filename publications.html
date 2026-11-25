@@ -24,6 +24,7 @@ title: Publications
     <p class="entry__venue"><em>{{ p.journal }}</em>{% if p.details and p.details != "" %}, {{ p.details }}{% endif %}</p>
     {% capture btns %}
       {% if p.doi and p.doi != "" %}<a class="btn" href="https://doi.org/{{ p.doi }}">{% include icon.html name="link" %} DOI</a>{% endif %}
+      {% if p.preprint and p.preprint != "" %}<a class="btn" href="{{ p.preprint }}">{% include icon.html name="newspaper" %} Preprint</a>{% endif %}
       {% if p.pdf and p.pdf != "" %}<a class="btn" href="{{ p.pdf | relative_url }}">{% include icon.html name="file-pdf" %} PDF</a>{% endif %}
       {% if p.code and p.code != "" %}<a class="btn" href="{{ p.code }}">{% include icon.html name="code" %} Code</a>{% endif %}
       {% if p.data and p.data != "" %}<a class="btn" href="{{ p.data }}">{% include icon.html name="database" %} Data</a>{% endif %}

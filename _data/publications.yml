@@ -8,6 +8,7 @@
 #           accepted papers get an "In press" tag.
 #  doi:     just the DOI, e.g. 10.1029/2024GL000000  -> becomes a DOI button
 #  pdf:     a link, or a file you upload to assets/files/ (e.g. /assets/files/frucht2026jgr.pdf)
+#  preprint: link to a preprint (e.g. ESS Open Archive) -> "Preprint" button
 #  code / data / link: any URL -> become buttons
 #  bibtex:  paste a BibTeX entry after "bibtex: |" (indented) -> "Cite" button
 #  Your name is bolded automatically (see pub_names in _config.yml).
@@ -29,6 +30,13 @@
   status: published
   doi: "10.1029/2025EF007720"
   pdf: ""
+
+- title: "[PLACEHOLDER] Title of your paper in review"
+  authors: "[Authors — Frucht, S. is bolded automatically]"
+  journal: "[Journal it was submitted to]"
+  year: 2026
+  status: in-review
+  preprint: "https://doi.org/10.22541/essoar.15004387/v3"
 
 # Example of a paper in preparation (remove the "# " at the start of each line to use):
 # - title: "Title of a dissertation chapter"
