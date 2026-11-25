@@ -40,12 +40,11 @@ links:
   orcid: 0000-0002-2468-3956
   google_scholar: wZxHqg8AAAAJ                       # the "user=" value
 
-# --- CV --------------------------------------------------------------------
+# --- CV (Vita page) --------------------------------------------------------------------
 # Export your CV from Overleaf as PDF, name it cv.pdf and upload it to
 # assets/files/ (replacing the old one). The download button finds it there.
 cv_pdf: /assets/files/cv.pdf
 cv_updated: "November 2026"          # shown next to the download button
-cv_embed: true                       # show the PDF inline on the CV page
 
 # --- Job market banner on the home page (set to "" to hide) ------------------
 job_market: ""

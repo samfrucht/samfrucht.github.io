@@ -19,8 +19,8 @@ The site rebuilds itself in about a minute.
 | Home page (bio, research, background) | `index.md` |
 | News items on the home page | `_data/news.yml` |
 | Publications | `_data/publications.yml` |
-| Talks, posters, conference abstracts | `_data/presentations.yml` |
-| CV page summary (education, awards, skills) | `cv.md` |
+| Talks, posters, conference abstracts (on the Vita page) | `_data/presentations.yml` |
+| Vita page (education, awards, skills) | `vita.md` |
 | The CV PDF | upload over `assets/files/cv.pdf` |
 | Menu items / order | `_data/navigation.yml` |
 | Colors and fonts | top of `assets/css/main.css` |
@@ -39,8 +39,8 @@ to just before the next `- title:`), paste it at the top, and edit it. `status: 
 puts it under *Peer-reviewed*. `in-review` and `in-prep` get their own sections. Any button
 field (`doi`, `pdf`, `code`, `data`, `bibtex`) you leave out simply doesn't show.
 
-**Add a talk or poster.** The same idea, in `_data/presentations.yml`. Entries are grouped by year
-automatically. `type` can be `talk`, `poster`, or `invited`.
+**Add a talk or poster.** The same idea, in `_data/presentations.yml`. They appear on the Vita page,
+newest first. `type` can be `talk`, `poster`, or `invited`.
 
 **Add a news item.** Add a block to the top of `_data/news.yml`.
 
