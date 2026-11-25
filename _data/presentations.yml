@@ -1,5 +1,6 @@
 # =============================================================================
-#  PRESENTATIONS (shown on the Vita page, newest first — sorted by date)
+#  SELECTED PRESENTATIONS (shown on the Vita page, newest first — sorted by date)
+#  Your full list lives in your CV PDF; keep this to the highlights.
 #  Copy a block to add one.
 #  type:  oral | poster | invited     (shown as a small tag)
 #  Optional links (become clickable): slides, poster_pdf, abstract
@@ -12,25 +13,11 @@
   date: 2025-12-01
   type: oral
 
-- title: "Tropical cyclone-heat compound events in high-resolution climate models"
-  authors: "Frucht, S., Baldwin, J. W., Murakami, H., Lee, C.-Y., Vecchi, G. A., Matthews, T., & Camargo, S. J."
-  event: "Miami's Urban Heat Research Group"
-  location: "Virtual"
-  date: 2025-07-01
-  type: oral
-
 - title: "Can climate models realistically simulate tropical cyclone-heat compound events?"
   authors: "Frucht, S., Baldwin, J. W., Murakami, H., Lee, C.-Y., Vecchi, G. A., Matthews, T., & Camargo, S. J."
   event: "American Geophysical Union Fall Meeting"
   location: "Washington, DC"
   date: 2024-12-10
-  type: oral
-
-- title: "Tropical cyclone-heat compound events in high-resolution climate models"
-  authors: "Frucht, S., Baldwin, J. W., Murakami, H., Lee, C.-Y., Vecchi, G. A., Matthews, T., & Camargo, S. J."
-  event: "NOAA MAPP Projections Task Force"
-  location: "Virtual"
-  date: 2024-12-01
   type: oral
 
 - title: "Global assessment of compound tropical cyclone-heat hazards in a changing climate"
@@ -61,13 +48,6 @@
   date: 2022-12-01
   type: poster
 
-- title: "An IMPROVE perspective of the Godzilla dust storm and transport into the southeastern U.S."
-  authors: "Frucht, S., & Miller, R. L."
-  event: "NASA Intern Symposium"
-  location: "Virtual"
-  date: 2022-08-01
-  type: oral
-
 - title: "An IMPROVE perspective of the Godzilla dust storm"
   authors: "Frucht, S., & Miller, R. L."
   event: "American Meteorological Society Annual Meeting"
@@ -75,23 +55,9 @@
   date: 2022-01-01
   type: poster
 
-- title: "An IMPROVE perspective of the Godzilla dust storm"
-  authors: "Frucht, S., & Miller, R. L."
-  event: "NASA Intern Symposium"
-  location: "Virtual"
-  date: 2021-08-01
-  type: oral
-
 - title: "Spatial variability of falling snow"
   authors: "Frucht, S., & Tokay, A."
   event: "American Meteorological Society Annual Meeting"
   location: "Boston, MA"
   date: 2020-01-01
-  type: poster
-
-- title: "Spatial variability of falling snow"
-  authors: "Frucht, S., & Tokay, A."
-  event: "NASA Intern Symposium"
-  location: "Greenbelt, MD"
-  date: 2019-08-01
   type: poster

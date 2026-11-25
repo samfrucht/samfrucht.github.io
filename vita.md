@@ -61,7 +61,7 @@ permalink: /vita/
 {% endfor %}
 </ul>
 
-## Presentations
+## Selected Presentations
 
 <ul class="cv-list cv-list--refs">
 {% assign talks = site.data.presentations | sort: "date" | reverse %}
