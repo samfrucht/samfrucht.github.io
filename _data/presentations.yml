@@ -6,6 +6,12 @@
 #  Optional links (become clickable): slides, poster_pdf, abstract
 # =============================================================================
 
+- title: "Projections of tropical cyclone-heat compound events under future warming using the SPEAR Large Ensemble"
+  event: "American Geophysical Union Fall Meeting"
+  location: "San Francisco, CA"
+  date: 2026-12-07
+  type: poster
+
 - title: "Future projections of tropical cyclone-heat compound events using high-resolution global climate models"
   authors: "Frucht, S., Baldwin, J. W., Murakami, H., Lee, C.-Y., Vecchi, G. A., & Camargo, S. J."
   event: "American Geophysical Union Fall Meeting"
