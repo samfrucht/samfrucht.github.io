@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /
-show_news: false   # set to true to show the News list (items live in _data/news.yml)
+show_news: true    # set to true to show the News list (items live in _data/news.yml)
 news_limit: 6
 ---
 
@@ -16,7 +16,7 @@ Before coming to UCI, I earned a B.S. in Atmospheric Science from Cornell Univer
 
 
 {% if page.show_news %}
-## News
+## Recent News
 
 <ul class="news">
 {% for item in site.data.news limit: page.news_limit %}
