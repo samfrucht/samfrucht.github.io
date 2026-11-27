@@ -81,7 +81,7 @@ permalink: /vita/
 
 <ul class="cv-list">
 <li><span class="when">2025 – Present</span><span><strong>Reviewer</strong><span class="sub"><em>Weather, Climate, and Society</em> (AMS)</span></span></li>
-<li><span class="when">2024 – Present</span><span><strong>Graduate Representative</strong><span class="sub">Department of Earth System Science, UC Irvine</span></span></li>
+<li><span class="when">2024 – 2025</span><span><strong>Graduate Representative</strong><span class="sub">Department of Earth System Science, UC Irvine</span></span></li>
 <li><span class="when">2023 – 2026</span><span><strong>Graduate Mentorship Program Lead &amp; Mentor</strong><span class="sub">UC Irvine</span></span></li>
 </ul>
 
