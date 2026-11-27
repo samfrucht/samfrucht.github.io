@@ -47,7 +47,7 @@ cv_pdf: /assets/files/cv.pdf
 cv_updated: "November 2026"          # shown on the Vita page
 
 # --- Job market banner on the home page (set to "" to hide) ------------------
-job_market: ""
+job_market: "I am on the job market for postdoctoral and research positions beginning in late 2027, especially at the intersection of natural hazards and human health."
 # example: "I am on the job market for postdoctoral positions starting in 2027."
 
 # =============================================================================

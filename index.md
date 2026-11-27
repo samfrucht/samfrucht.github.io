@@ -12,7 +12,7 @@ I am a PhD candidate at the University of California, Irvine, advised by [Dr. Ja
 
 My dissertation examines **TC–heat events**, in which a tropical cyclone is followed by extreme heat. Tropical cyclones often cause widespread power outages, and when extreme heat follows in the same region, communities can be left without cooling, posing serious risks to human health and well-being. I use high-resolution global climate models (GCMs) to better understand these events.
 
-Before coming to UCI, I earned a B.S. in Atmospheric Science from Cornell University in 2021, with minors in Climate Change and in Environment & Sustainability. Outside of research, I enjoy running, hiking, camping, knitting, and crocheting.
+Before coming to UCI, I earned a B.S. in Atmospheric Science from Cornell University in 2021, with minors in Climate Change and in Environment & Sustainability. Outside of research, I enjoy running, hiking, camping, and knitting.
 
 
 {% if page.show_news %}
