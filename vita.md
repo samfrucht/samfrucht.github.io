@@ -13,11 +13,10 @@ permalink: /vita/
   _data/publications.yml and _data/presentations.yml.
 {%- endcomment -%}
 
-<p>This is an abbreviated vita. A full, up-to-date CV{% if site.resume_pdf != "" %} and a shorter resume are both{% else %} is{% endif %} available for download below.</p>
+<p>This is an abbreviated vita. A full, up-to-date CV is available for download below.</p>
 
 <div class="cv-actions">
   <a class="btn btn--primary" href="{{ site.cv_pdf | relative_url }}">{% include icon.html name="file-pdf" %} CV</a>
-  {% if site.resume_pdf != "" %}<a class="btn btn--primary" href="{{ site.resume_pdf | relative_url }}">{% include icon.html name="file-pdf" %} Resume</a>{% endif %}
   <span class="updated">Updated {{ site.cv_updated }}</span>
 </div>
 
@@ -57,7 +56,7 @@ permalink: /vita/
 
 <ul class="cv-list cv-list--refs">
 {% for p in site.data.publications %}
-<li><span class="when">{{ p.year }}</span><span>{% include authors.html authors=p.authors %} {{ p.title }}. <em>{{ p.journal }}</em>{% if p.details and p.details != "" %}, {{ p.details }}{% endif %}.{% if p.doi and p.doi != "" %} <a href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>{% elsif p.preprint and p.preprint != "" %} <a href="{{ p.preprint }}">Preprint</a>{% endif %}{% case p.status %}{% when "in-review" %} <span class="tag tag--talk">Under review</span>{% when "accepted" %} <span class="tag tag--talk">In press</span>{% endcase %}</span></li>
+<li><span class="when">{{ p.year }}</span><span>{% include authors.html authors=p.authors %} {{ p.title }}. <em>{{ p.journal }}</em>{% if p.details and p.details != "" %}, {{ p.details }}{% endif %}.{% if p.doi and p.doi != "" %} <a href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>{% elsif p.preprint and p.preprint != "" %} <a href="{{ p.preprint }}">Preprint</a>{% endif %}{% if p.pdf and p.pdf != "" %} · <a href="{{ p.pdf | relative_url }}">PDF</a>{% endif %}{% case p.status %}{% when "in-review" %} <span class="tag tag--talk">Under review</span>{% when "accepted" %} <span class="tag tag--talk">In press</span>{% endcase %}</span></li>
 {% endfor %}
 </ul>
 
