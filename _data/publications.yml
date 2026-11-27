@@ -9,7 +9,7 @@
 #           in-review -> "Under review" tag, in-prep -> "In preparation" tag.
 #  doi:      just the DOI, e.g. 10.1029/2024GL000000  -> "DOI" button
 #  preprint: link to a preprint (e.g. ESS Open Archive) -> "Preprint" button
-#  pdf:      a link, or a file you upload to assets/files/ (e.g. /assets/files/frucht2026jgr.pdf)
+#  pdf:      a link, or a file you upload to assets/files/ (e.g. /assets/files/frucht2026jgr_manuscript.pdf)
 #  code / data / link: any URL -> buttons
 #  bibtex:   paste a BibTeX entry after "bibtex: |" (indented) -> "Cite" button
 #  Your name is bolded automatically (see pub_names in _config.yml).
@@ -30,7 +30,7 @@
   year: 2026
   status: published
   doi: "10.1029/2026JD047940"
-  pdf: /assets/files/frucht2026jgr.pdf
+  pdf: /assets/files/frucht2026jgr_manuscript.pdf   # author manuscript, not the journal-formatted version
 
 - title: "Historical and projected tropical cyclone characteristics in SPEAR large ensemble simulations"
   authors: "Chu, W., García-Franco, J. L., Camargo, S. J., Lee, C.-Y., Tippett, M. K., Murakami, H., Baldwin, J. W., & Frucht, S."
