@@ -32,7 +32,7 @@ permalink: /vita/
 
 <ul class="cv-list">
 <li><span class="when">2022 – Present</span><span><strong>Graduate Research Assistant</strong><span class="sub">Department of Earth System Science, UC Irvine · Advisor: Dr. Jane Baldwin</span></span></li>
-<li><span class="when">Summers 2021–22</span><span><strong>Research Intern</strong><span class="sub">NASA Goddard Institute for Space Studies · Advisor: Dr. Ron Miller</span></span></li>
+<li><span class="when">Summers 2021 &amp; 2022</span><span><strong>Research Intern</strong><span class="sub">NASA Goddard Institute for Space Studies · Advisor: Dr. Ron Miller</span></span></li>
 <li><span class="when">Summer 2020</span><span><strong>Undergraduate Research Assistant</strong><span class="sub">Department of Earth and Atmospheric Sciences, Cornell University · Advisor: Dr. Art DeGaetano</span></span></li>
 <li><span class="when">Feb – Apr 2020</span><span><strong>Visiting Research Scholar</strong><span class="sub">Climate Change Research Centre, University of New South Wales · Advisors: Dr. Melissa Hart &amp; Dr. Angela Maharaj</span></span></li>
 <li><span class="when">Summer 2019</span><span><strong>Research Intern</strong><span class="sub">NASA Goddard Space Flight Center · Advisor: Dr. Ali Tokay</span></span></li>
@@ -45,7 +45,7 @@ permalink: /vita/
 <li><span class="when">2025</span><span><strong>Outstanding Contribution to the Department</strong><span class="sub">University of California, Irvine</span></span></li>
 <li><span class="when">2024</span><span><strong>Student Award</strong><span class="sub">Symposium on Hurricane Risk in a Changing Climate</span></span></li>
 <li><span class="when">2024</span><span><strong>Physical Sciences Advancing Inclusive Excellence Award</strong><span class="sub">University of California, Irvine</span></span></li>
-<li><span class="when">2023</span><span><strong>Graduate Research Fellowship Program (GRFP)</strong><span class="sub">National Science Foundation</span></span></li>
+<li><span class="when">2023</span><span><strong>Graduate Research Fellowship</strong><span class="sub">National Science Foundation</span></span></li>
 <li><span class="when">2023</span><span><strong>CalSpace Fellowship</strong><span class="sub">University of California, Irvine</span></span></li>
 <li><span class="when">2019, 2022</span><span><strong>Sally Ride Internship Award</strong><span class="sub">NASA</span></span></li>
 <li><span class="when">2021</span><span><strong>CALS Academic Excellence Award</strong><span class="sub">Cornell University</span></span></li>
@@ -80,7 +80,7 @@ permalink: /vita/
 ## Service
 
 <ul class="cv-list">
-<li><span class="when">2025 – Present</span><span><strong>Reviewer</strong><span class="sub"><em>Weather, Climate, and Society</em> (AMS)</span></span></li>
+<li><span class="when">2025 – Present</span><span><strong>Journal Reviewer</strong><span class="sub"><em>Weather, Climate, and Society</em> (AMS)</span></span></li>
 <li><span class="when">2024 – 2025</span><span><strong>Graduate Representative</strong><span class="sub">Department of Earth System Science, UC Irvine</span></span></li>
 <li><span class="when">2023 – 2026</span><span><strong>Graduate Mentorship Program Lead &amp; Mentor</strong><span class="sub">UC Irvine</span></span></li>
 </ul>
